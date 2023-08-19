@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonusová Keška</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ztracený poklad</h1>
+        <p>Zadejte digitální kód, který jste našli v bonusové kešce a vygenrujte si diplom</p>
+        <input type="text" id="codeInput" placeholder="Zadejte kód">
+        <button id="generateButton">Generovat diplom</button>
+        <div id="certifikate"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
