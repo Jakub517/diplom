@@ -19,8 +19,7 @@ generateButton.addEventListener("click", () => {
         <p>Datum zobrazení je: <b>${new Date().toLocaleDateString()}</b></p>
         <p>diplom je:</p>
         <img src="nfkdavnlkbvbdsbcvjbflkvnf.png" style="width: 80%" />
-        <p><b>Prosím, nedávejte si diplom do logu. Toto pravidlo z důvodu, aby i ostatní hráči prošli sérií a zaslouženě obdrželi diplom místo toho, aby ho pouze stáhli z logu, aniž by pro to něco udělali.</b></p>
-        <p><b>Pokud by se přes toto varování stále objevovaly diplomy v logu, budeme nuceni provést smazání celého vašeho logu.</b></p>
+        <p><b>Pokud  se diplom objeví v logu, bude log smazán.</b></p>
         <a href=${vysledek} download=${vysledek}>Stáhnout obrázek</a>
         `;
 
